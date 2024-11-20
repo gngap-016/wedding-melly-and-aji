@@ -1,0 +1,130 @@
+.container {
+  min-height: 100vh;
+  padding: 40px 12px 12px 12px;
+  position: relative;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+  color: var(--secondaryColor);
+  font-weight: 500;
+}
+
+.desc {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.giftContainer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // position: relative;
+}
+
+.giftItem {
+  border: 2px solid var(--secondaryColor);
+  padding: 12px;
+  border-radius: 12px;
+  width: 100%;
+  height: 344px;
+  position: relative;
+}
+
+.imgContainer {
+  width: 100%;
+  height: 180px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.img {
+  object-fit: contain;
+}
+
+.descContainer {
+  width: 100%;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  z-index: 999;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltipText {
+  visibility: hidden;
+  width: 200px;
+  background-color: var(--secondaryColor);
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 14px;
+}
+
+.tooltip .tooltipText::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: var(--secondaryColor) transparent transparent transparent;
+}
+
+.tooltip:hover .tooltipText {
+  visibility: visible;
+  opacity: 1;
+}
+
+.noRek {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.number {
+  margin-top: 12px;
+  border: 1px solid var(--secondaryColor);
+  background-color: transparent;
+  padding: 12px 16px;
+  border-radius: 12px;
+  color: var(--secondaryColor);
+  font-size: 28px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+@media screen and (min-width: 736px) {
+  .giftItem {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .giftItem {
+    width: 50%;
+  }
+}

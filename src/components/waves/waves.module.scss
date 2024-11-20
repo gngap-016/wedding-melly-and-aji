@@ -1,0 +1,110 @@
+.wavesContainer {
+  max-width: 520px;
+  width: 100%;
+  height: 100vh;
+  // border-radius: inherit;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  overflow: hidden;
+  z-index: 999;
+}
+
+.topWavesContainer {
+  width: 100%;
+  height: 200px;
+  position: relative;
+
+  .topWaves1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+
+    background-image: url('/assets/wave-top-1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .topWaves2 {
+    position: absolute;
+    top: -18px;
+    left: 0;
+    width: 200%;
+    height: 100%;
+
+    background-image: url('/assets/wave-top-2.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+
+.bottomWavesContainer {
+  width: 100%;
+  height: 200px;
+  position: relative;
+
+  .awan1 {
+    position: absolute;
+    top: 36px;
+    left: 120px;
+    width: 80px;
+    height: 100%;
+    
+    background-image: url('/assets/awan.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .awan2 {
+    position: absolute;
+    top: 56px;
+    left: 20px;
+    width: 100px;
+    height: 100%;
+    
+    background-image: url('/assets/awan2.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .bottomWaves1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+
+    background-image: url('/assets/wave-bottom-1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .wayang {
+    position: absolute;
+    bottom: 18px;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    
+    background-image: url('/assets/arjuna.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .bottomWaves2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+
+    background-image: url('/assets/wave-bottom-2.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

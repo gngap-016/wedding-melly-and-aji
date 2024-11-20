@@ -1,0 +1,70 @@
+.container {
+  min-height: 100vh;
+  padding: 40px 12px 12px 12px;
+  position: relative;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Sacramento', cursive;
+  font-size: 32px;
+  color: var(--secondaryColor);
+  font-weight: 500;
+}
+
+.desc {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.date {
+  margin-top: 8px;
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--thirdColor);
+}
+
+.subtitle {
+  margin-top: 24px;
+  font-family: 'Sacramento', cursive;
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--thirdColor);
+}
+
+.time {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.location {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 44px;
+  color: var(--thirdColor);
+}
+
+.maps {
+  margin-top: 20px;
+}
+
+.googleMaps {
+  border-radius: 12px;
+}
+
+.link {
+  font-size: 12px;
+  padding: 4px;
+  border-radius: 4px;
+  color: var(--secondaryColor);
+  border: 1px solid var(--secondaryColor);
+  display: block;
+  width: fit-content;
+  margin: auto;
+}
+
+@media screen and (min-width: 736px) {
+  .googleMaps {
+    width: 450px;
+  }
+}
