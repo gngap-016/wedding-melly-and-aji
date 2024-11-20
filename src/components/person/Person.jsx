@@ -39,7 +39,7 @@ const Person = () => {
             whileInView={{opacity: 1, y: 0}}
             transition={{delay: .25, duration: .25, type: 'spring'}}
             className={`${styles.name} gold`}
-          >Lamidi, S.Pd.</motion.h2>
+          >M. Aji Ramadhan</motion.h2>
           <motion.p
             initial={{opacity: 0, y: -15}}
             whileInView={{opacity: 1, y: 0}}
@@ -51,7 +51,7 @@ const Person = () => {
             whileInView={{opacity: 1, y: 0}}
             transition={{delay: .75, duration: .25, type: 'spring'}}
             className={styles.parent}
-          >Bapak Sarju & Ibu Parmi (OKU Timur)</motion.p>
+          >Bapak Kino & Ibu Mualimah</motion.p>
         </div>
       </div>
       <motion.div
@@ -92,7 +92,7 @@ const Person = () => {
             whileInView={{opacity: 1, y: 0}}
             transition={{delay: .25, duration: .25, type: 'spring'}}
             className={`${styles.name} gold`}
-          >Iba Lestari, A.Md.Keb.</motion.h2>
+          >Melly Angreini</motion.h2>
           <motion.p
             initial={{opacity: 0, y: -15}}
             whileInView={{opacity: 1, y: 0}}
@@ -104,7 +104,7 @@ const Person = () => {
             whileInView={{opacity: 1, y: 0}}
             transition={{delay: .75, duration: .25, type: 'spring'}}
             className={styles.parent}
-          >Bapak Paimin & Ibu Khuriah (Pekon Mon, Ngambur, Pesisir Barat)</motion.p>
+          >Bapak Maryono & Ibu Maryani</motion.p>
         </div>
       </div>
     </div>

@@ -7,23 +7,13 @@ import Image from 'next/image'
 const images = [
   {
     id: 1,
-    url: "/images/men.jpg",
+    url: "/images/couple-1.jpg",
     alt: "Galeri 1"
   },
   {
     id: 2,
-    url: "/images/women.jpg",
+    url: "/images/couple-2.jpg",
     alt: "Galeri 2"
-  },
-  {
-    id: 3,
-    url: "/images/couple1.jpg",
-    alt: "Galeri 3"
-  },
-  {
-    id: 4,
-    url: "/images/couple2.jpg",
-    alt: "Galeri 4"
   },
 ]
 

@@ -25,7 +25,7 @@ const Footer = () => {
         whileInView={{opacity: 1, y: 0}}
         transition={{delay: .75, duration: .5, type: 'spring'}}
         className={`${styles.personName} gold`}
-      >Lamidi & Iba Lestari</motion.p>
+      >M. Aji & Melly</motion.p>
       <motion.div 
         initial={{opacity: 0, scale: 0}}
         whileInView={{opacity: 1, scale: 1}}

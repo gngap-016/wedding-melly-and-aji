@@ -8,6 +8,7 @@ import Galery from "@/components/galery/Galery";
 import Footer from "@/components/footer/Footer";
 import Audio from "@/components/audio/Audio";
 import Quotes from "@/components/quotes/Quotes";
+import Gift from "@/components/gift/Gift";
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
       <Person />
       <EventComponent />
       <Galery />
-      {/* <Gift /> */}
+      <Gift />
       <Footer />
       {/* <Navbar /> */}
     </main>

@@ -6,7 +6,7 @@ import Image from 'next/image'
 import Button from '../button/Button'
 
 const Hero = () => {
-  const countDownDate = new Date("Aug 7, 2024 09:00:00").
+  const countDownDate = new Date("Nov 29, 2024 09:00:00").
   
   getTime();
 
@@ -39,7 +39,7 @@ const Hero = () => {
           animate={{opacity: 1}}
           transition={{delay: .05, duration: 1, type: 'spring'}}
         className={styles.imgContainer}>
-          <Image src={'/images/couple2.jpg'} alt='' className={styles.heroImg} fill />
+          <Image src={'/images/couple-1.jpg'} alt='' className={styles.heroImg} fill />
         </motion.div>
         <div className={styles.name}>
           <motion.p
@@ -47,7 +47,7 @@ const Hero = () => {
             animate={{opacity: 1, y: 0}}
             transition={{delay: .15, duration: .5, type: 'spring'}}
             className={`${styles.man} gold`}
-          >Lamidi, S.Pd.</motion.p>
+          >M. Aji Ramadhan</motion.p>
           <motion.p 
             initial={{opacity: 0, y: 30}}
             animate={{opacity: 1, y: 0}}
@@ -59,7 +59,7 @@ const Hero = () => {
             animate={{opacity: 1, y: 0}}
             transition={{delay: .5, duration: .5, type: 'spring'}}
             className={`${styles.woman} gold`}
-          >Iba Lestari, A.Md.Keb.</motion.p>
+          >Melly Angreini</motion.p>
         </div>
 
         <div className={styles.descContainer}>
@@ -69,7 +69,7 @@ const Hero = () => {
             animate={{opacity: 1, scale: 1}}
             transition={{delay: .75, duration: .25, type: 'spring'}}
             className={`${styles.date} gold`}
-          >Rabu, 7 Agustus 2024</motion.p>
+          >Jumat, 29 November 2024</motion.p>
         </div>
         <div className={styles.countDown}>
           <p className={styles.desc}>Waktu menuju acara:</p>

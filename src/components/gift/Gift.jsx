@@ -12,7 +12,7 @@ const copyNumber = (number) => {
 
 const mouseOut = () => {
   const tooltip = document.getElementById("myTooltip");
-  tooltip.innerHTML = "Salin Nomor Rekening";
+  tooltip.innerHTML = "Salin Nomor";
 }
 const Gift = () => {
   return (
@@ -32,17 +32,17 @@ const Gift = () => {
           className={styles.giftItem}
         >
           <div className={styles.imgContainer}>
-            <Image src={'/images/bca.png'} alt='' className={styles.img} fill />
+            <Image src={'/images/dana.png'} alt='' className={styles.img} fill />
           </div>
           <div className={styles.descContainer}>
             <div className={styles.tooltip}>
-              <button className={styles.number} onClick={() => copyNumber("6590173809")} onMouseOut={mouseOut}>
-                <span className={styles.tooltipText} id='myTooltip'>Salin Nomor Rekening</span>
-                <span className={styles.noRek}>No. Rek <br /></span>
-                6590173809
+              <button className={styles.number} onClick={() => copyNumber("085366203580")} onMouseOut={mouseOut}>
+                <span className={styles.tooltipText} id='myTooltip'>Salin Nomor</span>
+                <span className={styles.noRek}>No. <br /></span>
+                0853 6620 3580
               </button>
             </div>
-            <p className={styles.name}>a.n Afni Nisandari</p>
+            <p className={styles.name}>a.n Melly Angreini</p>
           </div>
         </motion.div>
       </div>
