@@ -25,7 +25,7 @@ const Footer = () => {
         whileInView={{opacity: 1, y: 0}}
         transition={{delay: .75, duration: .5, type: 'spring'}}
         className={`${styles.personName} gold`}
-      >M. Aji & Melly</motion.p>
+      >Melly & Aji</motion.p>
       <motion.div 
         initial={{opacity: 0, scale: 0}}
         whileInView={{opacity: 1, scale: 1}}
@@ -33,7 +33,7 @@ const Footer = () => {
         className={styles.supported}
       >
         <hr />
-        <span className={styles.textSupported}>supported by</span> <Link href={'https:///wa.me/6281991100788'} target='_blank' rel='noreferrer' className={styles.myLink}>Agsa FC</Link>
+        <span className={styles.textSupported}>supported by</span> <Link href={'https:///wa.me/6281991100788'} target='_blank' rel='noreferrer' className={styles.myLink}>Agsa FC Creative - CP. 0819 9110 0788</Link>
       </motion.div>
     </div>
   )
