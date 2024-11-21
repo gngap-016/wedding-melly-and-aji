@@ -33,7 +33,8 @@ const Footer = () => {
         className={styles.supported}
       >
         <hr />
-        <span className={styles.textSupported}>supported by</span> <Link href={'https:///wa.me/6281991100788'} target='_blank' rel='noreferrer' className={styles.myLink}>Agsa FC Creative - CP. 0819 9110 0788</Link>
+{/*         <span className={styles.textSupported}>supported by</span>  */}
+        <Link href={'https:///wa.me/6281991100788'} target='_blank' rel='noreferrer' className={styles.myLink}>Agsa FC Creative - CP. 0819 9110 0788</Link>
       </motion.div>
     </div>
   )
