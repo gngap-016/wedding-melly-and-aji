@@ -47,7 +47,7 @@ const Hero = () => {
             animate={{opacity: 1, y: 0}}
             transition={{delay: .15, duration: .5, type: 'spring'}}
             className={`${styles.man} gold`}
-          >M. Aji Ramadhan</motion.p>
+          >Melly Angreini</motion.p>
           <motion.p 
             initial={{opacity: 0, y: 30}}
             animate={{opacity: 1, y: 0}}
@@ -59,7 +59,7 @@ const Hero = () => {
             animate={{opacity: 1, y: 0}}
             transition={{delay: .5, duration: .5, type: 'spring'}}
             className={`${styles.woman} gold`}
-          >Melly Angreini</motion.p>
+          >M. Aji Ramadhan</motion.p>
         </div>
 
         <div className={styles.descContainer}>
